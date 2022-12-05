@@ -39,8 +39,8 @@ class Canva(p: MainActivity) : View(p) {
         canvas.drawBitmap(nubes, width / 2f - nubes.width / 2f + gy, gx, p)
         canvas.drawBitmap(
             bruja,
-            width / 2f - bruja.width / 2f + gy,
-            height / 2f - bruja.height / 2f + gx,
+            width / 2f - bruja.width / 2f,
+            height / 2f - bruja.height / 2f,
             p
         )
     }
@@ -58,8 +58,8 @@ class Canva(p: MainActivity) : View(p) {
         canvas.drawBitmap(nubes, width / 2f - nubes.width / 2f + gy, gx, p)
         canvas.drawBitmap(
             bruja,
-            width / 2f - bruja.width / 2f + gy,
-            height / 2f - bruja.height / 2f + gx,
+            width / 2f - bruja.width / 2f,
+            height / 2f - bruja.height / 2f,
             p
         )
     }
